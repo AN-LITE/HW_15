@@ -1,0 +1,8 @@
+@mixin red-line   {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 140px;
+    background: $red_shade-color;
+    margin-top: 30px;
+}

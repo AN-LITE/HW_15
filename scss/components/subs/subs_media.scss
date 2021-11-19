@@ -1,0 +1,22 @@
+@media (max-width :767px){
+
+    .subs{
+
+        padding: 20px;
+
+        .subs__contact{
+            flex-direction: column;
+
+            .email_area{
+                padding-right: 0;
+            }
+    
+            .subs__button{
+                margin-top: 35px;
+            }
+           
+        }
+    }
+
+   
+}

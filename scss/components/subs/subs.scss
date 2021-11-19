@@ -1,0 +1,57 @@
+.subs {
+    background-color: $products_img-color;
+    padding: 110px 0; 
+
+    .subs__info {
+        text-align: center;
+        color: white;    
+
+        h2 {
+            font-size: 35px;
+            padding-top: 140px;
+        }
+
+        p {
+            font-size: 15px;
+            padding-top: 40px;
+        }
+
+    }
+
+    .subs__contact {
+        max-width:600px;
+        margin: 0 auto;
+        padding: 60px 0 140px 0;
+        display: flex;
+        justify-content: center;   
+        align-items: center;  
+
+        .email_area {
+            padding-right: 20px;
+            width: 75%;
+
+
+            input {
+                border: none;
+                width: 100%;
+                padding: 12px 10px;
+                border-radius: 5px;
+            }
+            
+        }
+        
+        button {
+            
+            @extend %button ;
+
+            &:hover {
+                background-color: rgb(159, 27, 199);
+            
+            }
+        
+        }
+           
+    }
+
+    
+}

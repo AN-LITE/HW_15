@@ -1,0 +1,25 @@
+%button {
+  
+
+    font-weight: 600;
+    text-decoration: none;
+    background-color: transparent;
+    color: inherit;
+    color: $red_shade-color;
+    padding: 10px 45px;
+    border: 3px solid ;
+    border-radius: 5px ;
+}
+
+%button_click {
+    
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    background: $red_shade-color;
+    padding: 13px 48px;
+    border: 3px ;
+    border-radius: 5px;
+}
+

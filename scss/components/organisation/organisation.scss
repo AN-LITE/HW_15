@@ -1,0 +1,66 @@
+.organisation {
+    padding: 100px 0 100px 0;
+    background-color: $h_o_bg_color;
+
+    .organisation__container{
+        display: flex;
+        justify-content: space-between;
+       
+    
+        
+    
+        .organisation__info {
+            
+            .organisation__button{
+                
+                margin-top: 60px;
+
+                a {
+                   @extend %button;
+
+                    &:hover {
+
+                        @extend %button_click  ;
+                        
+                    
+                    }
+                
+                }
+            }
+    
+            .organisation__text{
+    
+                max-width: 590px;
+                
+                h3{
+                    font-size: 60px;
+                    line-height: 70px;
+                    text-transform: uppercase;
+                    text-align: start;
+                    color: black;
+                }
+        
+                p {
+                    text-align: start;   
+                    padding-top: 40px;               
+                }
+
+            } 
+        }
+    
+        .organisation__video {
+    
+            iframe {
+    
+            
+                width: 570px;
+                height: 350px;
+           
+            }
+    
+           
+           
+        }
+        
+    }   
+}

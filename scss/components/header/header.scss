@@ -1,0 +1,39 @@
+
+header {
+    background-color: $h_o_bg_color;
+    
+    .menu{
+
+        padding-top: 30px; 
+        
+
+        .menu__list{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            background-color: $menu_bg_color;
+            padding: 25px;
+            
+            a {
+                text-decoration: none;
+                color: inherit;
+                color: white;
+                font-weight: 600;
+                text-transform: uppercase;
+                padding: 25px 40px;
+                
+                
+                
+                &:hover {
+                    background: $red_shade-color;
+                    transition: .3s;
+
+                }
+                
+            }
+
+     
+        } 
+
+    }  
+}                         
